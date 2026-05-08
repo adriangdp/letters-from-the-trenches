@@ -25,8 +25,8 @@ A small application that serves as interface between the user and the WWI letter
 
 Letters from the trenches is a small application that consolidates the information within various CSV and JSON files and serves it to the user through an interface that includes filtering tools and a translation service.
 
-- **Dataset compilation:** The original [Kaggle dataset](https://www.kaggle.com/datasets/anthaus/world-war-i-letters) by Anthaus is consolidated in single data objects to be easily readable through the UI.
-- **Sorting and filtering tools:** The letters can be filtered through keywords, letter ids, language and year to for quick access and find letters within a specific context.
+- **Dataset compilation:** The original [Kaggle dataset](https://www.kaggle.com/datasets/anthaus/world-war-i-) by Anthaus is consolidated in single data objects to be easily readable through the UI.
+- **Sorting and filtering tools:** The  can be filtered through keywords, letter ids, language and year to for quick access and find  within a specific context.
 - **Instant translation to more than 32 languges:** The letters can be translated to a preferred language with the click of a button thanks to the underlaying [TranslatePlus.io](https://translateplus.io/) Rest API requests.
 - **Responsive Design:** Works on mobile, tablet, and desktop.
 
@@ -73,11 +73,11 @@ Reach the desired folder path and introduce the following commands:
 
 #### Clone repository
 ```bash 
-git clone https://github.com/adriangdp/ww1-letter-reader
+git clone https://github.com/adriangdp/letters-from-the-trenches
 ```
 #### Install dependencies
 ```bash 
-cd ww1-letter-reader
+cd letters-from-the-trenches
 npm install
 ```
 
